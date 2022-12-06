@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cards-inner{
+    background: url(./media/photo-1613564834361-9436948817d1.avif);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card{
+    margin:35px auto;
+}
+.imgs-inner{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.imgs-inner img{
+    width: 100%;
+    height: 100%;
+transition: 0.3s;
+}
+.card :hover img{
+transform: scale(1.1);
+}
+.cook-price{
+    color: brown;
+    font-weight: 600;
+    font-size: 18;
+}
+.basket{
+    position: relative;
+}
+.basket span{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+bottom:20px
+}
